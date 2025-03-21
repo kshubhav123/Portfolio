@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Nova';
+    src: url("./assets/font/Nova_Square/NovaSquare-Regular.ttf");
+}
+
+
+.dark-theme {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.light-theme {
+    background-color: #ffffff;
+    color: black;
+}

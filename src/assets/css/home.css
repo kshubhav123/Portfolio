@@ -1,0 +1,299 @@
+.home-section {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+    font-family: Nova;
+}
+
+.home-col-section {
+height: 60vh;
+padding: 7rem 0 0 0;
+}
+
+.light-theme .home-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.light-theme .home-subtitle {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.dark-theme .home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.dark-theme .home-subtitle {
+    font-size: 1.5rem;
+    color: rgb(208, 205, 205);
+}
+
+.light-shadow {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark-shadow {
+    box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.light-shadow:hover {
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dark-shadow:hover {
+    box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
+
+
+
+.about-section {
+    min-height: 100vh;
+    padding: 50px 0;
+    font-family: Nova;
+}
+
+
+.skills-section {
+    min-height: 100vh;
+    padding: 50px 0;
+    font-family: Nova;
+}
+
+
+.edu-section {
+    min-height: 100vh;
+    padding: 50px 0;
+    font-family: Nova;
+}
+
+
+.exp-section {
+    min-height: 100vh;
+    padding: 50px 0;
+    font-family: Nova;
+}
+
+.hireme-section {
+    min-height: 100vh;
+    padding: 50px 0;
+    font-family: Nova;
+}
+
+
+.skills.section {
+    padding: 60px 0;
+}
+
+.light-theme .about-tag {
+    font-size: 2.5rem;
+    font-weight: 550;
+    color: black;
+    font-family: Nova;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.dark-theme .about-tag {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    font-family: Nova;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.light-theme .about-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Nova;
+    font-weight: lighter;
+    text-align: justify;
+
+}
+
+.dark-theme .about-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: rgb(208, 205, 205);
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Nova;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.light-theme .skills-tag {
+    font-size: 2.5rem;
+    font-weight: 550;
+    color: black;
+    font-family: Nova;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.dark-theme .skills-tag {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    font-family: Nova;
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 0.1rem;
+}
+
+.light-theme .progress {
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.light-theme .progress-bar {
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    background-color: black;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .progress {
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #252525;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark-theme .progress-bar {
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.progress-bar-font {
+    font-family: Nova;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    padding: 1rem 0.5rem 0.4rem 0.5rem;
+}
+
+
+.edu-title {
+    font-size: 2.0rem;
+    font-family: Nova;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+
+.edu-subtitle {
+    font-family: Nova;
+    color: #555;
+}
+
+.edu-desc {
+    margin-top: 0.5rem;
+    font-family: Nova;
+    text-align: justify;
+    color: rgb(120, 120, 120);
+    line-height: 1.5rem;
+}
+
+
+.dark-theme .edu-title {
+    font-size: 2.0rem;
+    font-family: Nova;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
+.dark-theme .edu-subtitle {
+    font-family: Nova;
+    color: #989898;
+}
+
+.dark-theme .edu-desc {
+    margin-top: 0.5rem;
+    font-family: Nova;
+    text-align: justify;
+    color: rgb(208, 205, 205);
+    line-height: 1.5rem;
+}
+
+.exp-title {
+    font-size: 2.0rem;
+    font-family: Nova;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+
+.exp-company {
+    font-family: Nova;
+    color: #555;
+}
+
+.exp-list {
+    margin-top: 0.5rem;
+    font-family: Nova;
+    text-align: justify;
+    color: rgb(82, 82, 82);
+    line-height: 1.5rem;
+}
+
+
+.dark-theme .exp-title {
+    font-size: 2.0rem;
+    font-family: Nova;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
+.dark-theme .exp-list {
+    font-family: Nova;
+    color: rgb(208, 205, 205);
+}
+
+
+.hire-desc {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Nova;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+
+.dark-theme .hire-desc {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: rgb(208, 205, 205);
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Nova;
+    font-weight: lighter;
+    text-align: justify;
+}
