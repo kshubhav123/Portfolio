@@ -3,7 +3,6 @@ import "../assets/css/home.css"
 import { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext'
 import Banner from "../assets/images/ban.webp"
-import SkillsVid from "../assets/video/skills.mp4"
 
 const ScrollTabs = () => {
     const { theme, toggleTheme } = useContext(ThemeContext)
@@ -23,7 +22,14 @@ const ScrollTabs = () => {
                                 <h1 className="home-title">Hello! I'm SHUBHAV KUMAR</h1>
                                 <h3 className="home-subtitle">Interactive Front-End Developer</h3>
                                 <div className="mt-4">
-                                    <button className={`btn ${theme === "light" ? "btn-outline-dark light-shadow" : "btn-outline-light dark-shadow"}`}>Download Resume</button>
+                                    <a
+                                        href="https://drive.google.com/file/d/1nQyKWFJQW9Yyf1VtJFlSacA_LXaQLHNz/view"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className={`btn ${theme === "light" ? "btn-outline-dark light-shadow" : "btn-outline-light dark-shadow"} text-decoration-none`}
+                                    >
+                                        Download Resume
+                                    </a>
                                 </div>
                             </div>
 
@@ -63,7 +69,7 @@ const ScrollTabs = () => {
                         <div className="row px-3">
 
                             <div className='col-lg-6 col-md-12 col-sm-12 px-4'>
-                              
+
 
 
                             </div>
