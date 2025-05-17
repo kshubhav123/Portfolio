@@ -17,7 +17,7 @@ const Banner = () => {
 
           <div class="text-sm mt-32 mb-3 sm:text-lg sm:mt-6 sm:mb-4 lg:text-xl lg:mt-10 lg:tracking-tight text-gray-600"
             id="line3">
-            I am a Frontend Developer | MERN Stack Enthusiast
+            Frontend Developer | MERN Stack Enthusiast
           </div>
 
           <div class="flex" id="cta">
@@ -35,7 +35,7 @@ const Banner = () => {
               onClick={() => window.open('https://drive.google.com/file/d/1Wq-OGBqWJwEVrKgNlVMSnbclAksHYwdZ/view?usp=drive_link', '_blank')}
               type="button"
               class="w-max text-base py-2 px-7 sm:text:xl sm:py-3 lg:py-3 lg:px-7 lg:mt-2 rounded focus:outline-none text-purple-800 border-2 border-purple-800 hover:bg-purple-800 hover:text-white focus:ring-4 focus:ring-purple-300 font-medium">
-              Hire Me
+              <i class="fa-solid fa-download me-1"></i> Hire Me
             </button>
           </div>
 
