@@ -1,15 +1,138 @@
-@font-face {
-    font-family: 'Nova';
-    src: url("./assets/font/Nova_Square/NovaSquare-Regular.ttf");
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 24px;
+  background-color: #f9f9f9;
+}
+
+.loading-bar {
+  width: 200px;
+  height: 4px;
+  background: linear-gradient(90deg, #007bff 25%, #00d4ff 75%);
+  background-size: 200% 100%;
+  animation: loadingAnim 1.5s infinite linear;
+  margin-top: 10px;
+}
+
+@keyframes loadingAnim {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
 }
 
 
-.dark-theme {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+
+.skill-box {
+  border-radius: 1rem;
+  background-color: #0c0f1d;
+  padding: 1.5rem;
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
 }
 
-.light-theme {
-    background-color: #ffffff;
-    color: black;
+.skill-box:hover {
+  transform: scale(1.05);
+}
+
+.border-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  border: 3px solid;
+  z-index: -1;
+}
+
+.html-border::before {
+  border-color: #e34c26;
+}
+
+.css-border::before {
+  border-color: #264de4;
+}
+
+.js-border::before {
+  border-color: #f0db4f;
+}
+
+.ts-border::before {
+  border-color: #007acc;
+}
+
+.react-border::before {
+  border-color: #61dafb;
+}
+
+.node-border::before {
+  border-color: #3c873a;
+}
+
+.mongodb-border::before {
+  border-color: #4db33d;
+}
+
+.redux-border::before {
+  border-color: #764abc;
+}
+
+.express-border::before {
+  border-color: #999999;
+}
+
+.api-border::before {
+  border-color: #f97316;
+}
+
+.tailwind-border::before {
+  border-color: #38bdf8;
+}
+
+.angular-border::before {
+  border-color: #dd1b16;
+}
+
+.github-border::before {
+  border-color: #ffffff;
+}
+
+.postman-border::before {
+  border-color: #ff6c37;
+}
+
+.vscode-border::before {
+  border-color: #007acc;
+}
+
+.canva-border::before {
+  border-color: #00c4cc;
+}
+
+.bootstrap-border::before {
+  border-color: #7952b3;
+}
+
+
+
+.category-title {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
 }
