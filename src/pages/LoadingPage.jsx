@@ -7,7 +7,7 @@ function LoadingPage() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      navigate('/banner');
+      navigate('/app');
     }, 1000); 
     return () => clearTimeout(timer);
   }, [navigate]);
